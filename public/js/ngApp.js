@@ -52,13 +52,13 @@
 
   app.service('DataService', ['$http', 
     function($http) {
-  
+
       var baseUrl = "http://nodeinsightsworkflows.eu-gb.mybluemix.net/";
       var searchUrl;
 
       return {
         searchData: searchData,
-        
+
         getSearchData: function(res) {
           $http.get(location.origin + '/searchData')
             .success(function(data) {
