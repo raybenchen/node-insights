@@ -1,1 +1,1 @@
-nvm use stable
+nvm use 0.12.7
