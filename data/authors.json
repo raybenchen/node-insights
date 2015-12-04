@@ -1,72 +1,72 @@
 [
 	{
-	  "id": 0,
+	  "id": "0",
 	  "url": "https://www.pluralsight.com/authors/aaron-frost",
 	  "title": "Aaron Frost",
 	  "content": "Aaron is part of the Domo, Inc front-end team bringing fun, new features to the app while shoring up some of the technical debt incurred in previous iterations. Aaron is also an O’Reilly author, currently writing two books about the next version of JavaScript, ES6. The first book is for management, explaining the reasons why they should help their teams use the latest version of JavaScript. The second book is a field guide for the new ES6 API that is currently being working on by the TC39. Aaron is part of the Domo, Inc front-end team bringing fun, new features to the app while shoring up some of the technical debt incurred in previous iterations. Aaron is also an O’Reilly author, currently writing two books about the next version of JavaScript, ES6. The first book is for management, explaining the reasons why they should help their teams use the latest version of JavaScript. The second book is a field guide for the new ES6 API that is currently being working on by the TC39."
 	},
 	{
-	  "id": 1,
+	  "id": "1",
 	  "url": "https://www.pluralsight.com/authors/aaron-patterson",
 	  "title": "Aaron Patterson",
 	  "content": "Aaron was born and raised on the mean streets of Salt Lake City. His only hope for survival was to join the local gang of undercover street ballet performers known as the Tender Tights. As a Tender Tights member, Aaron learned to perfect the technique of self-defense pirouettes so that nobody, not even the Parkour Posse could catch him. Between vicious street dance-offs, Aaron taught himself to program. He learned to combine the art of street ballet with the craft of software engineering. Using these unique skills, he was able to leave his life on the streets and become a professional software engineer. He is currently Pirouetting through Processes, and Couruing through code for AT&T. Sometimes he thinks back fondly on his life in the Tender Tights, but then he remembers that it is better to have Tender Loved and Lost than to never have Tender Taught at all. Aaron was born and raised on the mean streets of Salt Lake City. His only hope for survival was to join the local gang of undercover street ballet performers known as the Tender Tights. As a Tender Tights member, Aaron learned to perfect the technique of self-defense pirouettes so that nobody, not even the Parkour Posse could catch him. Between vicious street dance-offs, Aaron taught himself to program. He learned to combine the art of street ballet with the craft of software engineering. Using these unique skills, he was able to leave his life on the streets and become a professional software engineer. He is currently Pirouetting through Processes, and Couruing through code for AT&T. Sometimes he thinks back fondly on his life in the Tender Tights, but then he remembers that it is better to have Tender Loved and Lost than to never have Tender Taught at all."
 	},
 	{
-	  "id": 2,
+	  "id": "2",
 	  "url": "https://www.pluralsight.com/authors/aaron-powell",
 	  "title": "Aaron Powell",
 	  "content": "Aaron is a Senior Developer and Technical Web Specialist with Readify and Microsoft MVP for Internet Explorer Development. Professionally Aaron does a lot of work on the ASP.Net stack, through MVC to WebForms, as well as non-Microsoft technologies such as Node.js. Aaron is passionate about teaching developers how to make the most out of their chosen technologies and doing web development in the best way possible. A guilty pleasure of his is JavaScript; if you can do it in JavaScript he’s probably had a crack at doing it, whether it was a good idea or not. He is also a big supporter of open source software, being involved in a number of different open source communities across a number of different platforms. One of his primary open source projects is a blog engine called FunnelWeb which he is one of the lead developers on. A lot of Aaron’s work can be found on GitHub and BitBucket or through his blog. Outside of the computer Aaron enjoys good food, a good beer, skiing and long walks on the beach. Aaron is a Senior Developer and Technical Web Specialist with Readify and Microsoft MVP for Internet Explorer Development. Professionally Aaron does a lot of work on the ASP.Net stack, through MVC to WebForms, as well as non-Microsoft technologies such as Node.js. Aaron is passionate about teaching developers how to make the most out of their chosen technologies and doing web development in the best way possible. A guilty pleasure of his is JavaScript; if you can do it in JavaScript he’s probably had a crack at doing it, whether it was a good idea or not. He is also a big supporter of open source software, being involved in a number of different open source communities across a number of different platforms. One of his primary open source projects is a blog engine called FunnelWeb which he is one of the lead developers on. A lot of Aaron’s work can be found on GitHub and BitBucket or through his blog. Outside of the computer Aaron enjoys good food, a good beer, skiing and long walks on the beach."
 	},
 	{
-	  "id": 3,
+	  "id": "3",
 	  "url": "https://www.pluralsight.com/authors/aaron-skonnard",
 	  "title": "Aaron Skonnard",
 	  "content": "Aaron is a co-founder of Pluralsight where he serves as the Chief Executive Officer. Aaron has spent years developing course materials and teaching professional developers throughout the world. He has presented at many popular developer conferences like PDC, TechEd, and VSLive! Microsoft recognized Aaron as an MVP in the 'Connected Systems' developer community for eight years. Aaron has written numerous books, articles, and whitepapers including the Essential XML Quick Reference (Addison Wesley, 2001), Essential XML (Addison Wesley, 2000), and his popular columns in MSDN Magazine. Aaron lives in Utah with his wife Monica and five children Michelle, Michael, Nathan, Gisela, and Emma."
 	},
 	{
-	  "id": 4,
+	  "id": "4",
 	  "url": "https://www.pluralsight.com/authors/adam-fairless",
 	  "title": "Adam Fairless",
 	  "content": "Adam Fairless has worked for the past 14 years in the Design Industry on a wide variety of product and automotive projects. His skills encompass everything from concept design and CAD modeling to final production of items at retail, on the road, and on the screen. He has lived and worked in England, Italy, Hong Kong, and the US and currently works for WowWee toys as Director of Product Development in California. Adam Fairless has worked for the past 14 years in the Design Industry on a wide variety of product and automotive projects. His skills encompass everything from concept design and CAD modeling to final production of items at retail, on the road, and on the screen. He has lived and worked in England, Italy, Hong Kong, and the US and currently works for WowWee toys as Director of Product Development in California."
 	},
 	{
-	  "id": 5,
+	  "id": "5",
 	  "url": "https://www.pluralsight.com/authors/adron-hall",
 	  "title": "Adron Hall",
 	  "content": "I’m a jovial, proactive, polyglot, test & code, get things done well, software architect, engineer, code monkey, coder and distributed systems advocate. I run the gamut of dev stacks from Ruby on Rails, Node.js and .NET. A favorite these days is JavaScript and I'm diving into some Erlang even. I’m passionate about devops (it is the future, get ready), distributed systems and especially databases (not only SQL, object store, key value, etc) and PaaS (Platform as a Service) Technologies. I love to get involved in hackathons, user groups, and other tech community events. If we haven’t met there’s always a good chance we will. I’m a jovial, proactive, polyglot, test & code, get things done well, software architect, engineer, code monkey, coder and distributed systems advocate. I run the gamut of dev stacks from Ruby on Rails, Node.js and .NET. A favorite these days is JavaScript and I'm diving into some Erlang even. I’m passionate about devops (it is the future, get ready), distributed systems and especially databases (not only SQL, object store, key value, etc) and PaaS (Platform as a Service) Technologies. I love to get involved in hackathons, user groups, and other tech community events. If we haven’t met there’s always a good chance we will."
 	},
 	{
-	  "id": 6,
+	  "id": "6",
 	  "url": "https://www.pluralsight.com/authors/aaron-frost",
 	  "title": "Aaron Frost 1",
 	  "content": "Aaron is part of the Domo, Inc front-end team bringing fun, new features to the app while shoring up some of the technical debt incurred in previous iterations. Aaron is also an O’Reilly author, currently writing two books about the next version of JavaScript, ES6. The first book is for management, explaining the reasons why they should help their teams use the latest version of JavaScript. The second book is a field guide for the new ES6 API that is currently being working on by the TC39. Aaron is part of the Domo, Inc front-end team bringing fun, new features to the app while shoring up some of the technical debt incurred in previous iterations. Aaron is also an O’Reilly author, currently writing two books about the next version of JavaScript, ES6. The first book is for management, explaining the reasons why they should help their teams use the latest version of JavaScript. The second book is a field guide for the new ES6 API that is currently being working on by the TC39."
 	},
 	{
-	  "id": 7,
+	  "id": "7",
 	  "url": "https://www.pluralsight.com/authors/aaron-patterson",
 	  "title": "Aaron Patterson 2",
 	  "content": "Aaron was born and raised on the mean streets of Salt Lake City. His only hope for survival was to join the local gang of undercover street ballet performers known as the Tender Tights. As a Tender Tights member, Aaron learned to perfect the technique of self-defense pirouettes so that nobody, not even the Parkour Posse could catch him. Between vicious street dance-offs, Aaron taught himself to program. He learned to combine the art of street ballet with the craft of software engineering. Using these unique skills, he was able to leave his life on the streets and become a professional software engineer. He is currently Pirouetting through Processes, and Couruing through code for AT&T. Sometimes he thinks back fondly on his life in the Tender Tights, but then he remembers that it is better to have Tender Loved and Lost than to never have Tender Taught at all. Aaron was born and raised on the mean streets of Salt Lake City. His only hope for survival was to join the local gang of undercover street ballet performers known as the Tender Tights. As a Tender Tights member, Aaron learned to perfect the technique of self-defense pirouettes so that nobody, not even the Parkour Posse could catch him. Between vicious street dance-offs, Aaron taught himself to program. He learned to combine the art of street ballet with the craft of software engineering. Using these unique skills, he was able to leave his life on the streets and become a professional software engineer. He is currently Pirouetting through Processes, and Couruing through code for AT&T. Sometimes he thinks back fondly on his life in the Tender Tights, but then he remembers that it is better to have Tender Loved and Lost than to never have Tender Taught at all."
 	},
 	{
-	  "id": 8,
+	  "id": "8",
 	  "url": "https://www.pluralsight.com/authors/aaron-powell",
 	  "title": "Aaron Powell 3",
 	  "content": "Aaron is a Senior Developer and Technical Web Specialist with Readify and Microsoft MVP for Internet Explorer Development. Professionally Aaron does a lot of work on the ASP.Net stack, through MVC to WebForms, as well as non-Microsoft technologies such as Node.js. Aaron is passionate about teaching developers how to make the most out of their chosen technologies and doing web development in the best way possible. A guilty pleasure of his is JavaScript; if you can do it in JavaScript he’s probably had a crack at doing it, whether it was a good idea or not. He is also a big supporter of open source software, being involved in a number of different open source communities across a number of different platforms. One of his primary open source projects is a blog engine called FunnelWeb which he is one of the lead developers on. A lot of Aaron’s work can be found on GitHub and BitBucket or through his blog. Outside of the computer Aaron enjoys good food, a good beer, skiing and long walks on the beach. Aaron is a Senior Developer and Technical Web Specialist with Readify and Microsoft MVP for Internet Explorer Development. Professionally Aaron does a lot of work on the ASP.Net stack, through MVC to WebForms, as well as non-Microsoft technologies such as Node.js. Aaron is passionate about teaching developers how to make the most out of their chosen technologies and doing web development in the best way possible. A guilty pleasure of his is JavaScript; if you can do it in JavaScript he’s probably had a crack at doing it, whether it was a good idea or not. He is also a big supporter of open source software, being involved in a number of different open source communities across a number of different platforms. One of his primary open source projects is a blog engine called FunnelWeb which he is one of the lead developers on. A lot of Aaron’s work can be found on GitHub and BitBucket or through his blog. Outside of the computer Aaron enjoys good food, a good beer, skiing and long walks on the beach."
 	},
 	{
-	  "id": 9,
+	  "id": "9",
 	  "url": "https://www.pluralsight.com/authors/aaron-skonnard",
 	  "title": "Aaron Skonnard 4",
 	  "content": "Aaron is a co-founder of Pluralsight where he serves as the Chief Executive Officer. Aaron has spent years developing course materials and teaching professional developers throughout the world. He has presented at many popular developer conferences like PDC, TechEd, and VSLive! Microsoft recognized Aaron as an MVP in the 'Connected Systems' developer community for eight years. Aaron has written numerous books, articles, and whitepapers including the Essential XML Quick Reference (Addison Wesley, 2001), Essential XML (Addison Wesley, 2000), and his popular columns in MSDN Magazine. Aaron lives in Utah with his wife Monica and five children Michelle, Michael, Nathan, Gisela, and Emma."
 	},
 	{
-	  "id": 10,
+	  "id": "10",
 	  "url": "https://www.pluralsight.com/authors/adam-fairless",
 	  "title": "Adam Fairless 5",
 	  "content": "Adam Fairless has worked for the past 14 years in the Design Industry on a wide variety of product and automotive projects. His skills encompass everything from concept design and CAD modeling to final production of items at retail, on the road, and on the screen. He has lived and worked in England, Italy, Hong Kong, and the US and currently works for WowWee toys as Director of Product Development in California. Adam Fairless has worked for the past 14 years in the Design Industry on a wide variety of product and automotive projects. His skills encompass everything from concept design and CAD modeling to final production of items at retail, on the road, and on the screen. He has lived and worked in England, Italy, Hong Kong, and the US and currently works for WowWee toys as Director of Product Development in California."
 	},
 	{
-	  "id": 11,
+	  "id": "11",
 	  "url": "https://www.pluralsight.com/authors/adron-hall",
 	  "title": "Adron Hall 6",
 	  "content": "I’m a jovial, proactive, polyglot, test & code, get things done well, software architect, engineer, code monkey, coder and distributed systems advocate. I run the gamut of dev stacks from Ruby on Rails, Node.js and .NET. A favorite these days is JavaScript and I'm diving into some Erlang even. I’m passionate about devops (it is the future, get ready), distributed systems and especially databases (not only SQL, object store, key value, etc) and PaaS (Platform as a Service) Technologies. I love to get involved in hackathons, user groups, and other tech community events. If we haven’t met there’s always a good chance we will. I’m a jovial, proactive, polyglot, test & code, get things done well, software architect, engineer, code monkey, coder and distributed systems advocate. I run the gamut of dev stacks from Ruby on Rails, Node.js and .NET. A favorite these days is JavaScript and I'm diving into some Erlang even. I’m passionate about devops (it is the future, get ready), distributed systems and especially databases (not only SQL, object store, key value, etc) and PaaS (Platform as a Service) Technologies. I love to get involved in hackathons, user groups, and other tech community events. If we haven’t met there’s always a good chance we will."

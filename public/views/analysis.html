@@ -1,0 +1,31 @@
+<div>
+  <div ng-show="loading">
+    <img src="/images/ajax-loader-2.gif" alt="Loading" />
+  </div>
+  
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Analysis for {{analysis.title}}
+        <small>
+          <a href="" ng-click="toggleContent()">
+            <span ng-show="contentVisible"> Hide Content </span>
+            <span ng-show="!contentVisible"> Show Content </span>
+          </a>
+          <a href="" ng-click="changeView('search')">
+            <i class="fa fa-replpy"></i> Back to Search
+          </a>
+        </small>
+      </h3>
+    </div>
+    <div class="col-md-12">
+      <p>{{analysis.content}}</p>
+    </div>
+  </div>
+
+  <div id="analysis-charts">
+    <div ng-reapeat="(chartIndex, chart) in analysis.PISummary" class="analysis-chart-box">
+      <canvas ng-attr-id="{{'analysis-chart-' + chartIndex}}" class="analysis-chart" width="120" height="120"></canvas>
+    </div>
+  </div>
+
+</div>
