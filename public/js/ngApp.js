@@ -163,6 +163,18 @@
         $scope.contentVisible = !$scope.contentVisible;
       };
 
+      $scope.tweet = function() {
+        DataService.tweet({
+          tweet: "Analysis for " + $scope.analysis.title + " #BluemixOnPluralsight" + location.href
+        }, function(success, data) {
+          if (success) {
+            $route.reload(); 
+          } else {
+            $scope.error = data;
+          }
+        }); 
+      };
+
       // This should be refactored and put in a super controller or class because both controllers use it
       $scope.changeView = function(pageName, id) {
         id = typeof id === 'boolean' ? $routeParams.id : typeof id === 'string' ? id : '';
@@ -249,6 +261,16 @@
             })
             .error(function(err) {
               res(false, err && err.error || err || "Error fetching search details");
+            });
+        },
+
+        tweet: function(tweet, res) {
+          $http.post(baseUrl + 'insight-tweet', tweet)
+            .success(function(data) {
+              res(true, data);
+            })
+            .error(function(data) {
+              res(false, data);
             });
         }
       };
