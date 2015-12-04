@@ -6,7 +6,8 @@
 
   function fetchAuthor(id) {
     for (var i = 0; i < authorData.length; i++) {
-      if (authorData[i].id === id) {
+      // in our json file we should store the id as string to make === work
+      if (authorData[i].id == id) {
         return authorData[i]; 
       }
     }

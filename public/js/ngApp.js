@@ -10,6 +10,10 @@
         templateUrl: '/views/search.html',
         controller: 'SearchController'
       })
+      .when('/details/:id', {
+        templateUrl: '/views/details.html',
+        controller: 'DetailsController'
+      })
       .otherwise({
         redirectTo: '/'
       });
@@ -17,8 +21,8 @@
     $locationProvider.html5Mode(false).hashPrefix('!');
   });
 
-  app.controller('SearchController', ['$scope', '$timeout', '$routeParams', '$location', 'DataService',
-    function($scope, $timeout, $routeParams, $location, DataService) {
+  app.controller('SearchController', ['$scope', '$timeout', '$routeParams', '$location', '$log', 'DataService',
+    function($scope, $timeout, $routeParams, $location, $log, DataService) {
 
       $scope.loading = true;
       $scope.error = false;
@@ -39,7 +43,7 @@
       };
 
       $scope.changeView = function(pageName, id) {
-        id = typeof id === 'boolean' ? $routeParams.id : typeof id === 'string' ? id : '';
+        //id = typeof id === 'boolean' ? $routeParams.id : typeof id === 'string' ? id : '';
         $location.path('/' + pageName + '/' + id);
       };
 
@@ -47,6 +51,55 @@
         console.log(err); 
       };
 
+    }
+  ]);
+
+  app.controller('DetailsController', ['$scope', '$routeParams', '$location', 'DataService',
+    function($scope, $routeParams, $location, DataService) {
+      $scope.loading = true;
+      $scope.analyzing = false;
+
+      DataService.getDetails($routeParams.id, function(success, data) {
+        $scope.loading = false;
+        if (success) {
+          $scope.details = data.details; 
+        } else {
+          $scope.error = data;
+        }
+      });
+
+      function getAnalysisText() {
+        return  $scope.details.content;
+      }
+
+      $scope.analyzeText = function() {
+        $scope.analyzing = true;
+
+        DataService.submitAnalysis({
+          _id: $scope.details.id,
+          title: $scope.details.title,
+          content: getAnalysisText()
+        }, 
+        function(success, data) {
+          $scope.analyzing = false;
+
+          if (success && data) {
+            $scope.changeView('analysis', true);
+          } else {
+            $scope.analysisError = "Error analyzing text";
+          }
+        });
+      };
+
+      // This should be refactored and put in a super controller or class because both controllers use it
+      $scope.changeView = function(pageName, id) {
+        id = typeof id === 'boolean' ? $routeParams.id : typeof id === 'string' ? id : '';
+        $location.path('/' + pageName + '/' + id);
+      };
+
+      $scope.handleError = function(err) {
+        console.log(err); 
+      };
     }
   ]);
 
@@ -89,6 +142,20 @@
               return false; 
             }
           }));
+        },
+
+        getDetails: function(id, res) {
+          $http.get(location.origin + '/details/' + id)
+            .success(function(data) {
+              if (data.details) {
+                res(true, data);
+              } else {
+                res(false, data.error || "Error fetching search details");
+              }
+            })
+            .error(function(err) {
+              res(false, err && err.error || err || "Error fetching search details");
+            });
         }
       };
     }

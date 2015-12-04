@@ -1,0 +1,21 @@
+<div>
+  <h3>Search Result 
+    <small><a href="" ng-click="changeView('search')">
+      <i class="fa fa-reply"></i> Back to Search</a>
+    </small>
+  </h3>
+
+  <div ng-show="loading">
+    <img src="/images/ajax-loader-2.gif" class="center-block" />
+  </div>
+
+  <div class="details_title">
+    <h3>{{details.title}}</h3>
+    <hr />
+  </div>
+  <div class="details_content">
+    <p>{{details.content}}</p>
+    <button class="btn btn-lg btn-primary" ng-click="analyzeText()" ng-disabled="analyzing">Analyze</button>
+    <img ng-show="analyzing" src="/images/ajax-loader-2.gif" alt="Analyzing..." />
+  </div>
+</div>
