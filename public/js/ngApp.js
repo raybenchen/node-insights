@@ -191,7 +191,7 @@
   app.service('DataService', ['$http', 
     function($http) {
 
-      var baseUrl = "https://nodeinsightsworkflows.eu-gb.mybluemix.net/";
+      var baseUrl = "https://InsightsWorkflowsPL.eu-gb.mybluemix.net/";
       var searchData;
 
       return {
