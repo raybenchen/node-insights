@@ -2,16 +2,29 @@
   <div ng-show="loading">
     <img src="/images/ajax-loader-2.gif" class="center-block">
   </div>
-</div>
+  
+  <div ng-show="error">
+    <span class="error">{{error}}</span>
+  </div>
 
-<div ng-show="error">
-  <span class="error">{{error}}</span>
-</div>
+  <div class="well search_controller">
+    <div class="custom-search-input">
+      <div class="input-group col-md-12">
+        <input type="text" class="search-query form-control" placeholder="Search" id="searchBox" ng-model="searchQuery" ng-keyup="searchData()"/>
+        <span class="input-group-btn">
+          <button class="btn" type="button" ng-click="searchData()">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
 
-<div class="well search_controller">
-  <div class="custom-search-input">
-    <div class="input-group col-md-12">
-      <input type="text" value="" name="" id=""/> 
+  <div class="results-container" ng-show="searchResults.length">
+    <div class="searchResults" ng-repeat="(listItemIndex, listItem) in searchResults" ng-click="changeView('details', listItem.id)">
+      <span class="search_results_number">{{listItemIndex + 1}}</span>
+      <span class="search_results_title">{{listItem.title}}</span>
     </div>
   </div>
 </div>
+

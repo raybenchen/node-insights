@@ -4,14 +4,13 @@
 <head>
   <title>NodeJS Starter Application</title>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <script type="text/javascript" charset="utf-8" src="lib/jquery/dist/jquery.min.js"></script>
 
-  <script type="text/javascript" charset="utf-8" src="/node-modules/jquery/dist/jquery.min.js"></script>
-
-  <link rel="stylesheet" href="/node-modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/node-modules/bootstrap/dist/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="/node-modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
@@ -20,16 +19,14 @@
     <h1>NodeInsights App</h1>
   </header> 
 
-  <section class="container">
-    <link rel="stylesheet" href="dasdoasd a/node-modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="dasdasd/node-modules/bootstrap/dist/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="dasdada/node-modules/font-awesome/css/font-awesome.min.css">
-
+  <section class="container" ng-app="InsightsApp">
+    <ng-view></ng-view>
   </section>
-  <script type="text/javascript" charset="utf-8" src="/node-modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script type="text/javascript" charset="utf-8" src="/node-modules/angular/angular.min.js"></script>
-  <script type="text/javascript" charset="utf-8" src="/node-modules/angular-route/angular-route.min.js"></script>
-  <script type="text/javascript" charset="utf-8" src="/node-modules/chart.js/Chart.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="lib/angular/angular.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="lib/angular-route/angular-route.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="lib/chart.js/Chart.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/ngApp.js"></script>
 </body>
 
 </html>

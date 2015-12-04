@@ -54,7 +54,7 @@
     function($http) {
 
       var baseUrl = "http://nodeinsightsworkflows.eu-gb.mybluemix.net/";
-      var searchUrl;
+      var searchData;
 
       return {
         searchData: searchData,
